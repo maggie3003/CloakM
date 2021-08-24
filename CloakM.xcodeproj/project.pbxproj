@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F5ED90D24C2860D00A4836C /* other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5ED90C24C2860D00A4836C /* other.swift */; };
+		9F5ED91924C67C7300A4836C /* Exist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5ED91824C67C7300A4836C /* Exist.swift */; };
+		9F5ED91B24C67DFA00A4836C /* CheckinItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5ED91A24C67DFA00A4836C /* CheckinItem.swift */; };
+		9F5ED91D24CD38A200A4836C /* PatronDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5ED91C24CD38A200A4836C /* PatronDetail.swift */; };
+		9F5ED91F24CD3A4100A4836C /* Guest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5ED91E24CD3A4100A4836C /* Guest.swift */; };
+		9F5ED92124E00F4600A4836C /* AdminPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5ED92024E00F4600A4836C /* AdminPanel.swift */; };
+		9F5ED92324E0131200A4836C /* SuccessPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5ED92224E0131200A4836C /* SuccessPage.swift */; };
+		9F5ED92524E1825B00A4836C /* CheckOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5ED92424E1825B00A4836C /* CheckOut.swift */; };
 		9F7DF2B723FCC1D400279F7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7DF2B623FCC1D400279F7D /* AppDelegate.swift */; };
 		9F7DF2B923FCC1D400279F7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7DF2B823FCC1D400279F7D /* SceneDelegate.swift */; };
 		9F7DF2BC23FCC1D400279F7D /* CloakM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F7DF2BA23FCC1D400279F7D /* CloakM.xcdatamodeld */; };
@@ -14,10 +22,8 @@
 		9F7DF2C023FCC1D600279F7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7DF2BF23FCC1D600279F7D /* Assets.xcassets */; };
 		9F7DF2C323FCC1D600279F7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7DF2C223FCC1D600279F7D /* Preview Assets.xcassets */; };
 		9F7DF2C623FCC1D600279F7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7DF2C423FCC1D600279F7D /* LaunchScreen.storyboard */; };
-		9F7DF2CE23FCC58F00279F7D /* Guest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7DF2CD23FCC58F00279F7D /* Guest.swift */; };
 		9F7E3EDB23FE16D000282EF6 /* GuestList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E3EDA23FE16CF00282EF6 /* GuestList.swift */; };
 		9F7E3EDD23FE59F400282EF6 /* Checks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E3EDC23FE59F400282EF6 /* Checks.swift */; };
-		9F7E3EDF23FE5E2D00282EF6 /* CheckinList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E3EDE23FE5E2D00282EF6 /* CheckinList.swift */; };
 		9F891A9023FF97DF00B1CC38 /* enterNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F891A8F23FF97DF00B1CC38 /* enterNumber.swift */; };
 		9FCECCA724078E9D00EC6316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCECCA624078E9D00EC6316 /* LaunchScreen.storyboard */; };
 		9FCECCA924078EFE00EC6316 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCECCA824078EFE00EC6316 /* LaunchViewController.swift */; };
@@ -25,6 +31,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F5ED90C24C2860D00A4836C /* other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = other.swift; sourceTree = "<group>"; };
+		9F5ED91824C67C7300A4836C /* Exist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exist.swift; sourceTree = "<group>"; };
+		9F5ED91A24C67DFA00A4836C /* CheckinItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinItem.swift; sourceTree = "<group>"; };
+		9F5ED91C24CD38A200A4836C /* PatronDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatronDetail.swift; sourceTree = "<group>"; };
+		9F5ED91E24CD3A4100A4836C /* Guest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guest.swift; sourceTree = "<group>"; };
+		9F5ED92024E00F4600A4836C /* AdminPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPanel.swift; sourceTree = "<group>"; };
+		9F5ED92224E0131200A4836C /* SuccessPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPage.swift; sourceTree = "<group>"; };
+		9F5ED92424E1825B00A4836C /* CheckOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOut.swift; sourceTree = "<group>"; };
 		9F7DF2B323FCC1D400279F7D /* CloakM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloakM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7DF2B623FCC1D400279F7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F7DF2B823FCC1D400279F7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,10 +48,8 @@
 		9F7DF2C223FCC1D600279F7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9F7DF2C523FCC1D600279F7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F7DF2C723FCC1D600279F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F7DF2CD23FCC58F00279F7D /* Guest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guest.swift; sourceTree = "<group>"; };
 		9F7E3EDA23FE16CF00282EF6 /* GuestList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestList.swift; sourceTree = "<group>"; };
 		9F7E3EDC23FE59F400282EF6 /* Checks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checks.swift; sourceTree = "<group>"; };
-		9F7E3EDE23FE5E2D00282EF6 /* CheckinList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinList.swift; sourceTree = "<group>"; };
 		9F891A8F23FF97DF00B1CC38 /* enterNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enterNumber.swift; sourceTree = "<group>"; };
 		9FCECCA624078E9D00EC6316 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FCECCA824078EFE00EC6316 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +70,7 @@
 		9F7DF2AA23FCC1D400279F7D = {
 			isa = PBXGroup;
 			children = (
+				9F5ED90C24C2860D00A4836C /* other.swift */,
 				9F7DF2B523FCC1D400279F7D /* CloakM */,
 				9F7DF2B423FCC1D400279F7D /* Products */,
 			);
@@ -74,22 +87,27 @@
 		9F7DF2B523FCC1D400279F7D /* CloakM */ = {
 			isa = PBXGroup;
 			children = (
+				9F5ED91E24CD3A4100A4836C /* Guest.swift */,
+				9F7E3EDC23FE59F400282EF6 /* Checks.swift */,
+				9F5ED91824C67C7300A4836C /* Exist.swift */,
+				9F5ED91C24CD38A200A4836C /* PatronDetail.swift */,
 				9F7DF2B623FCC1D400279F7D /* AppDelegate.swift */,
 				9F7DF2B823FCC1D400279F7D /* SceneDelegate.swift */,
 				9F7DF2BD23FCC1D400279F7D /* ContentView.swift */,
 				9F7DF2BF23FCC1D600279F7D /* Assets.xcassets */,
+				9F891A8F23FF97DF00B1CC38 /* enterNumber.swift */,
 				9F7DF2C423FCC1D600279F7D /* LaunchScreen.storyboard */,
 				9F7DF2C723FCC1D600279F7D /* Info.plist */,
 				9F7DF2BA23FCC1D400279F7D /* CloakM.xcdatamodeld */,
 				9F7DF2C123FCC1D600279F7D /* Preview Content */,
-				9F7DF2CD23FCC58F00279F7D /* Guest.swift */,
 				9F7E3EDA23FE16CF00282EF6 /* GuestList.swift */,
-				9F7E3EDC23FE59F400282EF6 /* Checks.swift */,
-				9F7E3EDE23FE5E2D00282EF6 /* CheckinList.swift */,
-				9F891A8F23FF97DF00B1CC38 /* enterNumber.swift */,
 				9FCECCA624078E9D00EC6316 /* LaunchScreen.storyboard */,
 				9FCECCA824078EFE00EC6316 /* LaunchViewController.swift */,
 				9FCECCAA24078FC100EC6316 /* FirstView.xib */,
+				9F5ED91A24C67DFA00A4836C /* CheckinItem.swift */,
+				9F5ED92024E00F4600A4836C /* AdminPanel.swift */,
+				9F5ED92224E0131200A4836C /* SuccessPage.swift */,
+				9F5ED92424E1825B00A4836C /* CheckOut.swift */,
 			);
 			path = CloakM;
 			sourceTree = "<group>";
@@ -177,14 +195,20 @@
 			files = (
 				9F891A9023FF97DF00B1CC38 /* enterNumber.swift in Sources */,
 				9FCECCA924078EFE00EC6316 /* LaunchViewController.swift in Sources */,
+				9F5ED91D24CD38A200A4836C /* PatronDetail.swift in Sources */,
+				9F5ED90D24C2860D00A4836C /* other.swift in Sources */,
 				9F7E3EDB23FE16D000282EF6 /* GuestList.swift in Sources */,
-				9F7DF2CE23FCC58F00279F7D /* Guest.swift in Sources */,
 				9F7E3EDD23FE59F400282EF6 /* Checks.swift in Sources */,
+				9F5ED92124E00F4600A4836C /* AdminPanel.swift in Sources */,
 				9F7DF2B723FCC1D400279F7D /* AppDelegate.swift in Sources */,
+				9F5ED91B24C67DFA00A4836C /* CheckinItem.swift in Sources */,
+				9F5ED91924C67C7300A4836C /* Exist.swift in Sources */,
 				9F7DF2B923FCC1D400279F7D /* SceneDelegate.swift in Sources */,
-				9F7E3EDF23FE5E2D00282EF6 /* CheckinList.swift in Sources */,
+				9F5ED92324E0131200A4836C /* SuccessPage.swift in Sources */,
 				9F7DF2BE23FCC1D400279F7D /* ContentView.swift in Sources */,
+				9F5ED91F24CD3A4100A4836C /* Guest.swift in Sources */,
 				9F7DF2BC23FCC1D400279F7D /* CloakM.xcdatamodeld in Sources */,
+				9F5ED92524E1825B00A4836C /* CheckOut.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +349,7 @@
 				DEVELOPMENT_TEAM = K7YPPRP2KC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CloakM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +357,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Maggie-Tang.CloakM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -345,6 +370,7 @@
 				DEVELOPMENT_TEAM = K7YPPRP2KC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CloakM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -352,7 +378,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Maggie-Tang.CloakM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

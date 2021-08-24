@@ -10,9 +10,6 @@ import UIKit
 
 class LaunchViewController: UIViewController {
 
-    @IBAction func start(_ sender: UIButton) {
-        
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

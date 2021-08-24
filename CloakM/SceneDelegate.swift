@@ -30,12 +30,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
             let managedObjectContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-            let contentView = ContentView().environment(\.managedObjectContext,managedObjectContext)
+            let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+            let contentView = ContentView().environment(\.managedObjectContext, context)
+            //let contentView = ContentView().environment(\.managedObjectContext,managedObjectContext)
             window.rootViewController = UIHostingController(rootView: contentView)
             self.window = window
             window.makeKeyAndVisible()
+            
+            
+            
+            }
+            //window.rootViewController = UIHostingController(rootView: ContentView().environment(\.managedObjectContext, context))
         }
-    }
+    
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.

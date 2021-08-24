@@ -10,9 +10,9 @@ import Foundation
 import CoreData
 
 public class Checks:NSManagedObject,Identifiable{
-    @NSManaged public var citem:Int16
+    @NSManaged public var citem:String?
     @NSManaged public var cname:String?
-    @NSManaged public var cnumber:UUID
+    @NSManaged public var cnumber:String?
     @NSManaged public var ctime:String?
      
 }

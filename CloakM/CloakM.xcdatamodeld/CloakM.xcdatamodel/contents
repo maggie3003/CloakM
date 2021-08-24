@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Checks" representedClassName=".Checkin" syncable="YES">
-        <attribute name="citem" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
-        <attribute name="cname" optional="YES" attributeType="String"/>
-        <attribute name="cnumber" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
-        <attribute name="ctime" optional="YES" attributeType="String"/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Checkin" representedClassName="Checkin" syncable="YES" codeGenerationType="class">
+        <attribute name="cpitem" optional="YES" attributeType="String"/>
+        <attribute name="cpname" optional="YES" attributeType="String"/>
+        <attribute name="cpnumber" optional="YES" attributeType="String"/>
+        <attribute name="cpticket" optional="YES" attributeType="String"/>
+        <attribute name="cptime" optional="YES" attributeType="String"/>
     </entity>
-    <entity name="Guest" representedClassName=".Guest" syncable="YES">
-        <attribute name="birthday" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
-        <attribute name="email" optional="YES" attributeType="String"/>
-        <attribute name="gender" optional="YES" attributeType="String"/>
-        <attribute name="name" optional="YES" attributeType="String"/>
-        <attribute name="number" optional="YES" attributeType="String"/>
+    <entity name="Patron" representedClassName="Patron" syncable="YES" codeGenerationType="class">
+        <attribute name="genderindex" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="pbirthday" optional="YES" attributeType="String"/>
+        <attribute name="pemail" optional="YES" attributeType="String"/>
+        <attribute name="pgender" optional="YES" attributeType="String"/>
+        <attribute name="pname" optional="YES" attributeType="String"/>
+        <attribute name="pnumber" optional="YES" attributeType="String"/>
     </entity>
     <elements>
-        <element name="Checks" positionX="-63" positionY="18" width="128" height="103"/>
-        <element name="Guest" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="Patron" positionX="172.62890625" positionY="-89.5625" width="128" height="133"/>
+        <element name="Checkin" positionX="-9" positionY="63" width="128" height="118"/>
     </elements>
 </model>
